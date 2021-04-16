@@ -8,10 +8,16 @@ function App() {
           <div className="item-a"></div>
           <div className="item-a"></div>
           <div className="item-a"></div>
+          <div className="item-a"></div>
+          <div className="item-a"></div>
+          <div className="item-a"></div>
         </div>
       </div>
       <div className="example">
         <div className="container-b">
+          <div className="item-b"></div>
+          <div className="item-b"></div>
+          <div className="item-b"></div>
           <div className="item-b"></div>
           <div className="item-b"></div>
           <div className="item-b"></div>

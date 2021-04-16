@@ -1,10 +1,24 @@
+:root {
+  --item-w: 150px;
+  --item-h: 100px;
+  --container-w: 600px
+}
+
+
 body {
-  max-width: 600px;
+  max-width: var(--container-w);
+}
+
+.example {
+  padding: 10px;
+  margin: 10px;
+  background: orange;
 }
 
 .container-a {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   gap: 10px;
 
   /* demo purpose */
@@ -17,12 +31,14 @@ body {
 
   /* demo purpose */
   background: blue;
-  height: 100px;
+  height: var(--item-h);
+  min-width: var(--item-w);
 }
 
 .container-b {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   margin: -5px;
 
   /* demo purpose */
@@ -37,11 +53,7 @@ body {
 
   /* demo purpose */
   background: blue;
-  height: 100px;
+  height: var(--item-h);
+  min-width: var(--item-w);
 }
 
-.example {
-  padding: 10px;
-  margin: 10px;
-  background: orange;
-}
